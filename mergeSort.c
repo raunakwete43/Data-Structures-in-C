@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 void print_array(int arr[], const int arr_size) {
     for (int i = 0; i < arr_size; i++) {
@@ -26,30 +25,23 @@ void merge(int arr[], const int left, const int mid, int right) {
 
     while (i < n1 && j < n2) {
         if (L[i] <= R[j]) {
-            arr[k] = L[i];
-            i++;
+            arr[k++] = L[i++];
         } else {
-            arr[k] = R[j];
-            j++;
+            arr[k++] = R[j++];
         }
-        k++;
     }
 
     while (i < n1) {
-        arr[k] = L[i];
-        i++;
-        k++;
+        arr[k++] = L[i++];
     }
 
     while (j < n2) {
-        arr[k] = R[j];
-        j++;
-        k++;
+        arr[k++] = R[j++];
     }
 }
 
 
-void mergeSort(int arr[], int left, int right) {
+void mergeSort(int arr[], const int left, const int right) {
     if (left < right) {
         const int mid = left + (right - left) / 2;
 
