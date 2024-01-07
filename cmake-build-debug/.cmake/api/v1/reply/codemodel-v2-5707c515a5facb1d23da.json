@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/590E8F62592868DC/Projects/C/Data Structures/cmake-build-debug",
-		"source" : "/mnt/590E8F62592868DC/Projects/C/Data Structures"
+		"build" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C/cmake-build-debug",
+		"source" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C"
 	},
 	"version" : 
 	{

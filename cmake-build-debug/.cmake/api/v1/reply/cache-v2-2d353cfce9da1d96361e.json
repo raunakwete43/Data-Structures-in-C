@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/590E8F62592868DC/Projects/C/Data Structures/cmake-build-debug"
+			"value" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/590E8F62592868DC/Projects/C/Data Structures/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/590E8F62592868DC/Projects/C/Data Structures"
+			"value" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1023,7 +1023,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/590E8F62592868DC/Projects/C/Data Structures/cmake-build-debug"
+			"value" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C/cmake-build-debug"
 		},
 		{
 			"name" : "Data_Structures_IS_TOP_LEVEL",
@@ -1047,7 +1047,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/590E8F62592868DC/Projects/C/Data Structures"
+			"value" : "/mnt/590E8F62592868DC/Projects/C/Data_Structures_in_C"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
