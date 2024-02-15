@@ -1,5 +1,0 @@
-# ninja log v5
-82	326	1704645269507871300	Data_Structures	c99ee42a0b14d0fe
-0	83	1704644777247168000	CMakeFiles/Data_Structures.dir/merging.c.o	2ca9e87fc59e3787
-1	32	1705326204881182100	build.ninja	f0b09e0d514a4ed7
-1	82	1704645269263831400	CMakeFiles/Data_Structures.dir/mergeSort.c.o	5d6ac5cf0da088fc
