@@ -18,14 +18,6 @@ int minVertex(int dist[], bool sptSet[])
     return index;
 }
 
-void makeArray(int arr[], int size, int val)
-{
-    for (int i = 0; i < size; i++)
-    {
-        arr[i] = val;
-    }
-}
-
 void printSolution(int dist[])
 {
     printf("Vertex \t\t Distance from Source\n");
@@ -37,10 +29,11 @@ void dijkstra(int graph[V][V], int src)
 {
     int dist[V];
     bool sptSet[V];
-    makeArray(dist, V, MAX);
-
     for (int i = 0; i < V; i++)
+    {
         sptSet[i] = false;
+        dist[i] = MAX;
+    }
 
     dist[src] = 0;
 
