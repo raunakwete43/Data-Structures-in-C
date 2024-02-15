@@ -3,4 +3,4 @@ project(Data_Structures C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Data_Structures merging.c)
+add_executable(Data_Structures mergeSort.c)
