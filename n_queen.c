@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <time.h>
 
-int is_attack(int row, int col, int board[10][10], int N) {
+int is_safe(int row, int col, int board[10][10], int N) {
   int k, l;
   for (k = row - 1; k >= 0; k--) {
     if (board[k][col] == 1)
-      return 1;
+      return 0;
   }
 
   k = row - 1;
   l = col - 1;
   while (k >= 0 && l >= 0) {
     if (board[k][l] == 1)
-      return 1;
+      return 0;
     k--;
     l--;
   }
@@ -21,11 +21,11 @@ int is_attack(int row, int col, int board[10][10], int N) {
   l = col + 1;
   while (k >= 0 && l <= N) {
     if (board[k][l] == 1)
-      return 1;
+      return 0;
     k--;
     l++;
   }
-  return 0;
+  return 1;
 }
 
 int n_queen(int row, int n, int N, int board[10][10]) {
@@ -34,7 +34,7 @@ int n_queen(int row, int n, int N, int board[10][10]) {
     return 1;
 
   for (j = 0; j < N; j++) {
-    if (!is_attack(row, j, board, N)) {
+    if (is_safe(row, j, board, N)) {
       board[row][j] = 1;
 
       if (n_queen(row + 1, n - 1, N, board))
