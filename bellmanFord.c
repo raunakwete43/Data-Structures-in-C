@@ -22,7 +22,7 @@ Graph *createGraph(int v, int e)
 
     graph->E = e;
     graph->V = v;
-    graphh->edge = (Edge *)malloc(e * sizeof(Edge))b
+    graphh->edge = (Edge *)malloc(e * sizeof(Edge));
 
     return (Graph *)graph;
 }
